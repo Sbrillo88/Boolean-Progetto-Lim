@@ -1,0 +1,68 @@
+body {
+    width: 100%;
+    background-image: url("/img/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+    margin: auto;
+    margin-top: 2%;
+    width: 51%;
+    border-radius: 15px;
+    padding: 5%;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+header {
+    text-align: center;
+}
+
+.logo {
+    width: 25%;
+}
+
+.subtext {
+    margin: 1%;
+    color: #01DD00;
+    font-size: 28px;
+}
+
+nav {
+    text-align: center;
+    background-color: #01DD00;
+    padding: 1%;
+}
+
+nav>.menu-button {
+    border-style: double
+}
+
+.nome-monopattino {
+    display: inline-block;
+    margin-bottom: 1%;
+    font-size: 22px;
+}
+
+.livello-carica-1 {
+    width: 35%;
+    height: 25px;
+    background-color: rgb(245 180 83);
+    border-radius: 3px;
+}
+
+.livello-carica-2 {
+    width: 60%;
+    height: 25px;
+    background-color: #01DD00;
+    border-radius: 3px;
+}
+
+.livello-carica-3 {
+    width: 16%;
+    height: 25px;
+    background-color: rgb(190 65 65);
+    border-radius: 3px;
+}
